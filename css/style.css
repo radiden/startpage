@@ -25,8 +25,8 @@ body #container * {
 	background-color: #000;
 	height: 100%;
 	width: 100%;
-    background-image: url("../img/bg2.jpg");
-    filter: blur(6px) grayscale(80%);
+    background-image: url("../img/bg3.jpg");
+    filter: blur(6px) grayscale(50%);
     background-size: 1920px 1080px;
 }
 #greeting {
@@ -66,7 +66,7 @@ body #container * {
 
 #links {
 	display: grid;
-	grid-template-columns: 300px auto;
+	grid-template-columns: 350px auto;
 	width: 1000px;
 	height: 400px;
 	font-family: 'Roboto', sans-serif;
@@ -86,11 +86,11 @@ body #container * {
 }
 
 #gridelementimg {
-	background-size: cover;
+	background-size: 130%;
 	background-position: center;
-	width: 300px; 
+	width: 350px;
 	height: 400px;
-	background: #000 url(../img/img1.jpg);
+	background-image: url(../img/img1.jpg);
 	border-radius: 4px;
 }
 
