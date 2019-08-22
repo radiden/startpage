@@ -1,0 +1,129 @@
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-smoothing: always;
+}
+
+body {
+	margin: 0;
+	background-color: #000;
+}
+
+body div {
+	position: absolute;
+}
+
+body #container * {
+	position: relative;
+}
+
+#container {
+	width: 100%;
+	height: 100%;
+}
+
+#bg-img {
+	background-color: #000;
+	height: 100%;
+	width: 100%;
+    background-image: url("../img/bg3.jpg");
+    filter: blur(6px) grayscale(50%);
+    background-size: 1920px 1080px;
+}
+#greeting {
+	color:#bfbfbf;
+	font-weight: 500;
+	text-align: center;
+	top: 0;
+	margin-top: 8px;
+	width: 100%;
+	font-family: 'Nunito', sans-serif;
+	font-size: 32px;
+	text-shadow: 0 5px 8px rgba(0, 0, 0, .8)
+}
+#clock {
+	margin-top: 8px;
+    color: #bfbfbf;
+    font-weight: 700;
+    text-align: center;
+    top: 0;
+    width: 100%;
+    font-size: 48px;
+    font-family: 'Nunito', sans-serif;
+    text-shadow: 0 5px 8px rgba(0, 0, 0, .8);
+}
+
+#weather {
+	margin-top: 8px;
+    color: #bfbfbf;
+    font-weight: 500;
+    text-align: center;
+    top: 0;
+    width: 100%;
+    font-size: 32px;
+    font-family: 'Nunito', sans-serif;
+    text-shadow: 0 5px 8px rgba(0, 0, 0, .8);
+}
+
+#links {
+	display: grid;
+	grid-template-columns: 350px auto;
+	width: 1000px;
+	height: 400px;
+	font-family: 'Roboto', sans-serif;
+	font-size: 24px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 24px;
+	margin-bottom: auto;
+	color: #9f9f9f;
+	background: rgba(0, 0, 0, 0.65);
+	border-radius: 4px;
+	transition: background 0.7s ease-out;
+}
+
+#links:hover { 
+	background: rgba(0, 0, 0, 0.8);
+}
+
+#gridelementimg {
+	background-size: 130%;
+	background-position: center;
+	width: 350px;
+	height: 400px;
+	background-image: url(../img/img1.jpg);
+	border-radius: 4px;
+}
+
+#gridelementlinks {
+	margin-left: 24px;
+}
+
+h1 {
+	/*margin-left: 10%;*/
+	font-family: 'Roboto', sans-serif;
+	font-size: 32px;
+	color: #bfbfbf;
+	text-shadow: 0 5px 8px rgba(0, 0, 0, .8);
+}
+
+a {
+	border-radius: 4px;
+	border: 0px solid #232328;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, .8);
+    padding: 8px;
+    background: #16141b;
+	width: auto;
+	height: auto;
+	margin-right: 4px;
+	color: #cecece;
+	text-decoration: none;
+	font-weight: 700;
+	overflow: hidden;
+	font-size: 24px;
+	transition: font-size 0.5s;
+}
+
+a:hover {
+	font-size: 32px;
+}
