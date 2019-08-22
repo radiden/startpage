@@ -8,6 +8,8 @@ it looks like:
 
 for now. i dont know if i'll change much more. feel free to use it for yourself/as a reference! although im not that great at creating websites.
 
+huge thanks to @Jan200101 and @nopjmp for helping me with this project.
+
 planned: 
 - ~~weather~~ change city in js/weather.js to get weather information for your location
 - ~~general improvements upon css~~ done? (it never is done)
