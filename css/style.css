@@ -1,3 +1,8 @@
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
 body {
 	margin: 0;
 	background-color: #000;
@@ -24,9 +29,19 @@ body #container * {
     filter: blur(6px) grayscale(80%);
     background-size: 1920px 1080px;
 }
-
+#greeting {
+	color:#bfbfbf;
+	font-weight: 500;
+	text-align: center;
+	top: 0;
+	margin-top: 16px;
+	width: 100%;
+	font-family: 'Nunito', sans-serif;
+	font-size: 32px;
+	text-shadow: 0 5px 8px rgba(0, 0, 0, .8)
+}
 #clock {
-	margin-top: 3%;
+	margin-top: 8px;
     color: #bfbfbf;
     font-weight: 700;
     text-align: center;
@@ -34,18 +49,53 @@ body #container * {
     width: 100%;
     font-size: 48px;
     font-family: 'Nunito', sans-serif;
-    text-shadow: 0 5px 8px rgba(0, 0, 0, .8)   
+    text-shadow: 0 5px 8px rgba(0, 0, 0, .8);
+}
+
+#weather {
+	margin-top: 24px;
+    color: #bfbfbf;
+    font-weight: 500;
+    text-align: center;
+    top: 0;
+    width: 100%;
+    font-size: 32px;
+    font-family: 'Nunito', sans-serif;
+    text-shadow: 0 5px 8px rgba(0, 0, 0, .8);
 }
 
 #links {
-	width: 800px;
+	display: grid;
+	grid-template-columns: 300px auto;
+	width: 1000px;
 	height: 400px;
 	font-family: 'Roboto', sans-serif;
 	font-size: 24px;
-	margin-left: 30%;
-	margin-right: 30%;
-	margin-top: 15%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10%;
+	margin-bottom: auto;
 	color: #9f9f9f;
+	background: rgba(0, 0, 0, 0.65);
+	border-radius: 4px;
+	transition: background 0.7s ease-out;
+}
+
+#links:hover { 
+	background: rgba(0, 0, 0, 0.8);
+}
+
+#gridelementimg {
+	background-size: cover;
+	background-position: center;
+	width: 300px; 
+	height: 400px;
+	background: #000 url(../img/img1.jpg);
+	border-radius: 4px;
+}
+
+#gridelementlinks {
+	margin-left: 24px;
 }
 
 h1 {
@@ -53,6 +103,7 @@ h1 {
 	font-family: 'Roboto', sans-serif;
 	font-size: 32px;
 	color: #bfbfbf;
+	text-shadow: 0 5px 8px rgba(0, 0, 0, .8);
 }
 
 a {
@@ -61,9 +112,17 @@ a {
     box-shadow: 0 5px 10px rgba(0, 0, 0, .8);
     padding: 8px;
     background: #16141b;
-	width: 1%;
+	width: auto;
+	height: auto;
 	margin-right: 4px;
 	color: #cecece;
 	text-decoration: none;
 	font-weight: 700;
+	overflow: hidden;
+	font-size: 24px;
+	transition: font-size 0.5s;
+}
+
+a:hover {
+	font-size: 32px;
 }

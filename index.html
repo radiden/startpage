@@ -7,14 +7,24 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet" type="text/css">
     <script type="text/javascript" src="js/clock.js"></script>
+    <script type="text/javascript" src="js/weather.js"></script>
 <body>
 	<div id="bg-img"></div>
 
 	<div id="container">
+		<div id="greeting">
+			hello rai
+		</div>
 		<div id="clock">
 			<script>setInterval(() => {document.getElementById("clock").innerText = gettime();}, 1000)</script>
 		</div>
-			<div id="links">
+		<div id="weather">
+			getting weather data...
+		</div>
+		<div id="links">
+			<div id="gridelementimg">
+			</div>
+			<div id="gridelementlinks">
 				<h1>links</h1>
 				<a href="https://youtube.com">yt</a>
 				<a href="https://animebytes.tv">ab</a>
@@ -23,6 +33,7 @@
 				<a href="https://github.com/rainyuu">git</a>
 				<a href="https://allegro.pl">allegro</a>
 				<a href="https://aliexpress.com">ali</a>
+				</div>
 			</div>
 	</div>
 </body>
