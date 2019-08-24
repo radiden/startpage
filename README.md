@@ -17,4 +17,4 @@ huge thanks to @Jan200101 and @nopjmp for helping me with this project.
 planned: 
 - ~~weather~~ change city in js/weather.js to get weather information for your location
 - ~~general improvements upon css~~ done? (it never is done)
-- ~~background change~~ old ones are still in img/
+- ~~background change~~ old ones are still in img
