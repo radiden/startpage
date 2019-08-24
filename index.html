@@ -8,14 +8,13 @@
     <link href="css/style.css" rel="stylesheet" type="text/css">
     <script type="text/javascript" src="js/clock.js"></script>
     <script type="text/javascript" src="js/weather.js"></script>
-<body>
+<body onload="updatetime()">
 	<div class="bg-img"></div>
 	<div class="container">
 		<div class="greeting">
 			hello rai
 		</div>
 		<div id="clock">
-			<script>setInterval(() => {document.getElementById("clock").innerText = gettime();}, 1000)</script>
 		</div>
 		<div id="weather">
 			getting weather data...
