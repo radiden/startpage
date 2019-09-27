@@ -119,11 +119,13 @@ a {
     font-weight: 700;
     overflow: hidden;
     font-size: 24px;
-    transition: font-size 0.25s;
+    transition: border-bottom-color 0.2s;
 }
 
 a:hover {
-    font-size: 28px;
+    /*font-size: 28px;*/
+    border-bottom: 2px solid;
+    border-bottom-color: #feb4c3;
 }
 
 @media (max-height: 768px){
